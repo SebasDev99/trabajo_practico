@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+    position: relative;
+}
+
+.seccion{
+    margin-top: 15px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px, 32px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo{
+    margin-left: 70px;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.titulo{
+    margin-left: 8px;
+}
+
+.encabezado{
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 37px;
+}
+
+.lupa{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 13px;
+
+}
+.icono-2{
+    display: none;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.esconder{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+.boton-1{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: #1F1F1F;
+}
+
+.bi-chevron-down{
+    padding: 0px 4px;
+}
+
+.boton-2{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 14px;
+    background-color: #FFFFFF;
+    border: transparent;
+    border-radius: 15px;
+    color: black;
+}
+
+.switch{
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 20%;
+    width: 90%;
+}
+
+.primer-bloque{
+    width: 50%;
+    height: 200px;
+}
+
+.investigacion{
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+h1{
+    font-size: 51px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+p{
+    display: block;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 20px ;
+}
+
+.anclas{
+    display: flex;
+    margin-top: 40px;
+    font-size: 14px;
+    gap: 10px;
+}
+
+.primer-a{
+    border: transparent;
+    border-radius: 19px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+
+.bi-arrow-up-right{
+    color: black;
+}
+
+.segundo-a{
+    background-color: #1F1F1F;
+    text-decoration: none;
+    border: transparent;
+    border-radius: 19px;
+    padding: 8px 20px;
+}
+
+.segundo-bloque{
+    display: flex;
+    padding-right: 70px;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.segundo-bloque img{
+    border-radius: 6px;
+    width: 100%;
+}
+
+.centrar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.centrar h2{
+    font-size: 41px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.centrar p{
+    font-size: 17px;
+    width: 40%;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: auto;
+    width: 80%;
+}
+
+
+.gpt{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #1F1F1F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.gpt h4{
+    margin: 6px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.gpt span{
+    font-style: italic;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.lista-1{
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.primer-elemento{
+    margin-bottom: 10px;
+}
+
+.business{
+    text-decoration: none;
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.segundo-producto{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #1F1F1F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.segundo-producto img{
+    width: 100%;
+}
+
+.segundo-producto h4{
+    margin: 6px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.avanzada{
+    font-style: italic;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.lista-2{
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.segundo-elemento{
+    margin-bottom: 10px;
+}
+
+.fondo{
+    text-decoration: none;
+    margin: 4px 10px 4px 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.tercer-producto{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #1F1F1F;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tercer-producto img{
+    width: 100%;
+}
+
+.tercer-producto h4{
+    margin: 6px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.conocimiento{
+    font-style: italic;
+    margin: 5px;
+    font-size: 13px;
+}
+
+.lista-3{
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.tercer-elemento{
+    margin-bottom: 10px;
+}
+
+.info{
+    text-decoration: none;
+    margin: 28px 10px 16px 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.iconos{
+    display: flex;
+    gap: 25px;
+}
+
+.spanes{
+    font-weight: 600;
+}
+
+.ancla{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.idioma{
+    background-color: #1F1F1F;
+    border: transparent;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.idioma a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.opcion{
+    color: grey;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .seccion{
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .encabezado{
+        display: none;
+    }
+
+    .lupa{
+        position: absolute;
+        right: 400px;
+        top: 2px;
+    }
+
+    .switch{
+        position: absolute;
+        display: block;
+        top: 10px;
+        right: 20px;
+    }
+
+    .hero{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    .primer-bloque{
+        width: 100%;
+        order: 1;
+    }
+
+    .segundo-bloque{
+        width: 100%;
+        height: 70vh;
+        order: 2;
+        margin-top: 500px;
+    }
+
+
+    .centrar{
+        margin-top: 300px;
+    }
+    .anclas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+        width: 60%;
+    }
+
+  
+    .centrar p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .productos{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .gpt{
+        width: 100%;
+    }
+
+    .segundo-producto{
+        width: 100%;
+    }
+
+    .tercer-producto{
+        width: 100%;
+    }
+
+    .productos img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconos{
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .spanes{
+        margin-bottom: 20px;
+    }
+
+    .idioma{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+
+    .centrar{
+        margin-top: 400px;
+    }
+    
+}
+@media screen and (max-width: 784px){
+    .seccion{
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .encabezado{
+        display: none;
+    }
+
+    .esconder{
+        display: none;
+    }
+
+
+     .lupa{
+        position: absolute;
+        right: 80px;
+    }
+
+    .switch{
+        position: absolute;
+        display: block;
+        top: 9px;
+        right: 40px;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+       .primer-bloque{
+        display: flex;
+        flex-direction: column;
+        margin-top: 800px;
+        width: 100%;
+        order: 1;
+    }
+
+
+    .anclas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px auto;
+        width: 60%;
+    }
+
+    .segundo-bloque{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        order: 2;
+        margin-top: 400px;
+    }
+
+    .centrar{
+        margin-top: 800px;
+    }
+
+    .centrar p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .productos{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .gpt{
+        width: 100%;
+    }
+
+    .segundo-producto{
+        width: 100%;
+    }
+
+    .tercer-producto{
+        width: 100%;
+    }
+
+    .productos img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .pie{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iconos{
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .spanes{
+        margin-bottom: 20px;
+    }
+
+    .idioma{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .hero{
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+
+    .primer-bloque{
+        margin-top: 0;
+        height: auto;
+    }
+
+    .anclas{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .segundo-bloque{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        padding-right: 0;
+    }
+
+    .imagen-hero{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .centrar{
+        margin-top: 50px;
+    }
+
+    .logo{
+        margin-left: 28px;
+    }   
+}
+
+
+@media screen and (max-width: 300px) {
+    .logo{
+        margin-left: 14px;
+        margin-top: 7px;
+    }
+
+    .lupa{
+        margin-top: 10px;
+    }
+
+    .hero h1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 41px;
+    }
+    
+
+}
